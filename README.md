@@ -21,8 +21,14 @@ Adding a README file and writing instructions on how to run the project is a plu
 
 > composer install
 
-## Uygulamayı ayağa kaldırmak için
+## Laravel sail kurulum için ve projeyi ayağa kaldırmak için
 
-> sail up
+> composer require laravel/sail --dev
+> 
+> php artisan sail:install
+> 
+> ./vendor/bin/sail up
+
+
 
 
