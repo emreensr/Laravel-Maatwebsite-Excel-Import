@@ -16,6 +16,7 @@ Showing the result of the import function (success or failure) in the UI is a pl
 Developers can improve supplied code and add any functionality like Ajax, error handling, etc... This is a big plus.
 Adding a README file and writing instructions on how to run the project is a plus.
 
+> Sql dosyası database klasörünün içindedir.
 
 ## Composer yüklemek için
 
