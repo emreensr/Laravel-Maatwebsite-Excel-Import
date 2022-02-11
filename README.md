@@ -19,15 +19,32 @@ Adding a README file and writing instructions on how to run the project is a plu
 
 ## Composer yüklemek için
 
-> composer install
+> composer install --ignore-platform-reqs
 
 ## Laravel sail kurulum için ve projeyi ayağa kaldırmak için
 
 > composer require laravel/sail --dev
 > 
 > php artisan sail:install
-> 
+ 
 > ./vendor/bin/sail up
+
+> sail artisan migrate
+
+
+
+
+## Php artisan serve ile ayağa kaldırmak için
+
+> composer install --ignore-platform-reqs
+
+> php artisan key:generate
+
+> php artisan migrate
+
+> php artisan serve
+
+
 
 
 
