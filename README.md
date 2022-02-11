@@ -17,6 +17,10 @@ Developers can improve supplied code and add any functionality like Ajax, error 
 Adding a README file and writing instructions on how to run the project is a plus.
 
 
+## Composer yüklemek için
+
+> composer install
+
 ## Uygulamayı ayağa kaldırmak için
 
 > sail up
