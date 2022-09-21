@@ -1,33 +1,38 @@
-### Excel Import Project
+## Excel Import Project
 
-> Sql dosyası database klasörünün içindedir.
-
-## Composer yüklemek için
-
-> composer install --ignore-platform-reqs
-
-## Laravel sail kurulum için ve projeyi ayağa kaldırmak için
-
-> composer require laravel/sail --dev
-> 
-> php artisan sail:install
+ - Email, phone, and employee_id fields are unique. The script needs to check if duplicate records exist.
+ - Email and Phone fields need to be valid.
+ - Showing the result of the import function (success or failure) in the blade.
  
-> ./vendor/bin/sail up
+### To install Composer
 
-> sail artisan migrate
+ `composer install --ignore-platform-reqs`
+
+### To run this project via Laravel Sail
+
+ `composer require laravel/sail --dev`
+ 
+ `php artisan sail:install`
+ 
+ `./vendor/bin/sail up`
+
+ `sail artisan migrate`
 
 
 
+### To run this project via local development server
 
-## Php artisan serve ile ayağa kaldırmak için
+ `composer install --ignore-platform-reqs`
 
-> composer install --ignore-platform-reqs
+ `php artisan key:generate`
 
-> php artisan key:generate
+ `php artisan migrate`
 
-> php artisan migrate
+ `php artisan serve`
+ 
+ 
+ > The sql file is in the database folder.
 
-> php artisan serve
 
 
 
